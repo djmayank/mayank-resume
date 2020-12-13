@@ -617,11 +617,6 @@
 <script>
   window.scroll(0, 0);
   history.replaceState(null, null, " ");
-  // Loader timeout
-  // var loaderPage = document.getElementById("load-1");
-  // setTimeout(() => {
-  //   loaderPage.classList.add("load-wrapp-hidden");
-  // }, 2000);
 
   // header js
 
@@ -629,15 +624,6 @@
     var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
   });
-
-  // var contactArea = document.getElementById("contact-icons");
-  // var contactCard = document.getElementById("contact-card");
-  // contactArea.addEventListener("mouseover", () => {
-  //   contactCard.classList.add("connectMove");
-  // });
-  // contactArea.addEventListener("mouseout", () => {
-  //   contactCard.classList.remove("connectMove");
-  // });
 
   function menuOnClick() {
     document.getElementById("menu-bar").classList.toggle("change");
@@ -649,13 +635,11 @@
 
   document.getElementById("leftMover").onclick = () => {
     var carousel = document.getElementById("carousel");
-    // sideScroll(carousel,'left',25,100,10);
     scrollFunc(carousel, "left");
   };
 
   document.getElementById("rightMover").onclick = () => {
     var carousel = document.getElementById("carousel");
-    // sideScroll(carousel,'left',25,100,10);
     scrollFunc(carousel, "right");
   };
 
