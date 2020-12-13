@@ -1,0 +1,7 @@
+---
+  deployment:
+        tasks:
+          - export DEPLOYPATH=/home4/mayantot/public_html
+          - /bin/cp index.html $DEPLOYPATH
+          - /bin/cp /assets/css/index.css $DEPLOYPATH
+          - /bin cp * $DEPLOYPATH
