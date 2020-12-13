@@ -5,4 +5,4 @@
           - /bin/cp index.html $DEPLOYPATH
           - /bin/cp /assets/css/index.css $DEPLOYPATH
           - /bin cp * $DEPLOYPATH
-          - /bin/cp -R images $DEPLOYPATH
+          - /bin/cp -R assets $DEPLOYPATH
