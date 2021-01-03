@@ -1,645 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mayank Khanna: Web Developer Portfolio</title>
-    <meta name="title" content="Mayank Khanna web portfolio | software development engineer">
-    <meta name="description" content="Mayank Khanna : a software development engineer at OYO. He is a web developer | web portfolio resume. A graduate of Delhi Technological University. ">
-    <meta name="keywords" content="Mayank khanna, web developer, software development engineer, web portfolio, web resume, mayank khanna oyo, khanna, mayank, software engineer, mayank oyo">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="revisit-after" content="1 days">
-    <meta name="author" content="Mayank Khanna">
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-  </head>
-  <body>
-    <header>
-      <h1 href="#" class="logo">MAYANK KHANNA</h1>
-      <ul class="menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
-    <div class="mobile-header">
-      <h1 class="mobile-header-title">MAYANK KHANNA</h1>
-      <div id="menu">
-        <div id="menu-bar" onclick="menuOnClick()">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
-        </div>
-        <nav class="nav" id="nav">
-          <ul>
-            <li><a href="#about" onclick="menuOnClick()">About</a></li>
-            <li>
-              <a href="#experience" onclick="menuOnClick()">Experience</a>
-            </li>
-            <li><a href="#work" onclick="menuOnClick()">Work</a></li>
-            <li><a href="#contact" onclick="menuOnClick()">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Mayank Khanna: Web Developer Portfolio</title>
+		<meta name="title" content="Mayank Khanna web portfolio | software development engineer">
+		<meta name="description" content="Mayank Khanna : a software development engineer at OYO. He is a web developer | web portfolio resume. A graduate of Delhi Technological University. ">
+		<meta name="keywords" content="Mayank khanna, web developer, software development engineer, web portfolio, web resume, mayank khanna oyo, khanna, mayank, software engineer, mayank oyo">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="revisit-after" content="1 days">
+		<meta name="author" content="Mayank Khanna">
+		<link
+		rel="stylesheet" href="assets/css/index.css"/>
+		<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	</head>
+	<body id="body" class="loading">
+		<header>
+			<h1 href="#" class="logo">MAYANK KHANNA</h1>
+			<ul class="menu">
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#experience">Experience</a>
+				</li>
+				<li>
+					<a href="#work">Work</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</header>
+		<div class="mobile-header">
+			<h1 class="mobile-header-title">MAYANK KHANNA</h1>
+			<div id="menu">
+				<div id="menu-bar" onclick="menuOnClick()">
+					<div id="bar1" class="bar"></div>
+					<div id="bar2" class="bar"></div>
+					<div id="bar3" class="bar"></div>
+				</div>
+				<nav class="nav" id="nav">
+					<ul>
+						<li><a href="#about" onclick="menuOnClick()">About</a></li>
+						<li><a href="#experience" onclick="menuOnClick()">Experience</a></li>
+						<li><a href="#work" onclick="menuOnClick()">Work</a></li>
+						<li><a href="#contact" onclick="menuOnClick()">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 
-      <div class="menu-bg" id="menu-bg"></div>
-    </div>
+			<div class="menu-bg" id="menu-bg"></div>
+		</div>
 
-    <!-- Keyboard desktop mode  -->
-    <div class="outer" id="home">
-      <!-- Web dev -->
-      <div class="webDev">
-        <svg
-          width="53px"
-          height="53px"
-          viewBox="0 0 53 53"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            id="arrow-wrap"
-            stroke="none"
-            stroke-width="1"
-            fill="none"
-            fill-rule="evenodd"
-          >
-            <g
-              id="arrow"
-              transform="translate(-904.000000, -343.000000)"
-              stroke="#FFFFFF"
-              stroke-width="2"
-            >
-              <path
-                d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z"
-                id="wrap-arrow1a"
-              ></path>
-            </g>
-          </g>
-        </svg>
-        <div class="webDevText">
-          <div>web developer</div>
-          <div>UI/UX Designer</div>
-        </div>
-      </div>
-      <!--  Speed  -->
-      <div id="speed"></div>
-      <!--  Heading   -->
-      <h2 class="heading">KEEP YOUR EYES HERE ON SCREEN</h2>
-      <!--  Keyboard   -->
-      <div class="keyboard">
-        <div class="row">
-          <div class="btn dup borderL" id="Backquote">
-            <span>~</span><span>`</span>
-          </div>
-          <div class="btn dup borderL" id="Digit1">
-            <span>!</span><span>1</span>
-          </div>
-          <div class="btn dup borderL" id="Digit2">
-            <span>@</span><span>2</span>
-          </div>
-          <div class="btn dup borderL" id="Digit3">
-            <span>#</span><span>3</span>
-          </div>
-          <div class="btn dup borderL" id="Digit4">
-            <span>$</span><span>4</span>
-          </div>
-          <div class="btn dup borderL" id="Digit5">
-            <span>%</span><span>5</span>
-          </div>
-          <div class="btn dup" id="Digit6"><span>^</span><span>6</span></div>
-          <div class="btn dup" id="Digit7"><span>&</span><span>7</span></div>
-          <div class="btn dup borderR" id="Digit8">
-            <span>*</span><span>8</span>
-          </div>
-          <div class="btn dup borderR" id="Digit9">
-            <span>(</span><span>9</span>
-          </div>
-          <div class="btn dup borderR" id="Digit0">
-            <span>)</span><span>0</span>
-          </div>
-          <div class="btn dup borderR" id="Minus">
-            <span>_</span><span>-</span>
-          </div>
-          <div class="btn dup borderR" id="Equal">
-            <span>+</span><span>=</span>
-          </div>
-          <div class="btn tab borderR" id="Backspace">delete</div>
-        </div>
-        <div class="row">
-          <div class="btn borderL tab">tab</div>
-          <div class="btn borderL" id="KeyQ">Q</div>
-          <div class="btn borderL" id="KeyW">W</div>
-          <div class="btn borderL" id="KeyE">E</div>
-          <div class="btn borderL" id="KeyR">R</div>
-          <div class="btn borderL" id="KeyT">T</div>
-          <div class="btn" id="KeyY">Y</div>
-          <div class="btn" id="KeyU">U</div>
-          <div class="btn borderR" id="KeyI">I</div>
-          <div class="btn borderR" id="KeyO">O</div>
-          <div class="btn borderR" id="KeyP">P</div>
-          <div class="btn borderR dup" id="BracketLeft">
-            <span>{</span><span>[</span>
-          </div>
-          <div class="btn borderR dup" id="BracketRight">
-            <span>}</span><span>]</span>
-          </div>
-          <div class="btn borderR dup" id="Backslash">
-            <span>|</span><span>\</span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="btn borderL caps">caps</div>
-          <div class="btn borderL" id="KeyA">A</div>
-          <div class="btn borderL" id="KeyS">S</div>
-          <div class="btn borderL" id="KeyD">D</div>
-          <div class="btn borderL" id="KeyF">F</div>
-          <div class="btn borderL" id="KeyG">G</div>
-          <div class="btn" id="KeyH">H</div>
-          <div class="btn" id="KeyJ">J</div>
-          <div class="btn borderR" id="KeyK">K</div>
-          <div class="btn borderR" id="KeyL">L</div>
-          <div class="btn borderR dup" id="Semicolon">
-            <span>:</span><span>;</span>
-          </div>
-          <div class="btn borderR dup" id="Quote">
-            <span>"</span><span>'</span>
-          </div>
-          <div class="btn borderR return" id="Enter">return</div>
-        </div>
-        <div class="row">
-          <div class="btn borderL shift" id="ShiftLeft">shift</div>
-          <div class="btn borderL" id="KeyZ">Z</div>
-          <div class="btn borderL" id="KeyX">X</div>
-          <div class="btn borderL" id="KeyC">C</div>
-          <div class="btn borderL" id="KeyV">V</div>
-          <div class="btn borderL" id="KeyB">B</div>
-          <div class="btn" id="KeyN">N</div>
-          <div class="btn borderR" id="KeyM">M</div>
-          <div class="btn borderR dup" id="Comma">
-            <span><</span><span>,</span>
-          </div>
-          <div class="btn borderR dup" id="Period">
-            <span>></span><span>.</span>
-          </div>
-          <div class="btn borderR dup" id="Slash">
-            <span>?</span><span>/</span>
-          </div>
-          <div class="btn borderR shift" id="ShiftRight">shift</div>
-        </div>
-      </div>
-      <h2 class="heading">AND TYPE FROM KEYBOARD</h2>
-      <div class="bottomText" id="bottomtext"># CPM: Characters per minute</div>
+		<!-- Keyboard desktop mode  -->
+		<div
+			class="outer" id="home">
+			<!-- Web dev -->
+			<div class="webDev">
+				<svg width="53px" height="53px" viewbox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="arrow" transform="translate(-904.000000, -343.000000)" stroke="#FFFFFF" stroke-width="2">
+							<path d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z" id="wrap-arrow1a"></path>
+						</g>
+					</g>
+				</svg>
+				<div class="webDevText">
+					<div>web developer</div>
+					<div>UI/UX Designer</div>
+				</div>
+			</div>
+			<!--  Speed  -->
+			<div id="speed"></div>
+			<!--  Heading   -->
+			<h2 class="heading">KEEP YOUR EYES HERE ON SCREEN</h2>
+			<!--  Keyboard   -->
+			<div class="keyboard">
+				<div class="row">
+					<div class="btn dup borderL" id="Backquote">
+						<span>~</span>
+						<span>`</span>
+					</div>
+					<div class="btn dup borderL" id="Digit1">
+						<span>!</span>
+						<span>1</span>
+					</div>
+					<div class="btn dup borderL" id="Digit2">
+						<span>@</span>
+						<span>2</span>
+					</div>
+					<div class="btn dup borderL" id="Digit3">
+						<span>#</span>
+						<span>3</span>
+					</div>
+					<div class="btn dup borderL" id="Digit4">
+						<span>$</span>
+						<span>4</span>
+					</div>
+					<div class="btn dup borderL" id="Digit5">
+						<span>%</span>
+						<span>5</span>
+					</div>
+					<div class="btn dup" id="Digit6">
+						<span>^</span>
+						<span>6</span>
+					</div>
+					<div class="btn dup" id="Digit7">
+						<span>&</span>
+						<span>7</span>
+					</div>
+					<div class="btn dup borderR" id="Digit8">
+						<span>*</span>
+						<span>8</span>
+					</div>
+					<div class="btn dup borderR" id="Digit9">
+						<span>(</span>
+						<span>9</span>
+					</div>
+					<div class="btn dup borderR" id="Digit0">
+						<span>)</span>
+						<span>0</span>
+					</div>
+					<div class="btn dup borderR" id="Minus">
+						<span>_</span>
+						<span>-</span>
+					</div>
+					<div class="btn dup borderR" id="Equal">
+						<span>+</span>
+						<span>=</span>
+					</div>
+					<div class="btn tab borderR" id="Backspace">delete</div>
+				</div>
+				<div class="row">
+					<div class="btn borderL tab">tab</div>
+					<div class="btn borderL" id="KeyQ">Q</div>
+					<div class="btn borderL" id="KeyW">W</div>
+					<div class="btn borderL" id="KeyE">E</div>
+					<div class="btn borderL" id="KeyR">R</div>
+					<div class="btn borderL" id="KeyT">T</div>
+					<div class="btn" id="KeyY">Y</div>
+					<div class="btn" id="KeyU">U</div>
+					<div class="btn borderR" id="KeyI">I</div>
+					<div class="btn borderR" id="KeyO">O</div>
+					<div class="btn borderR" id="KeyP">P</div>
+					<div class="btn borderR dup" id="BracketLeft">
+						<span>{</span>
+						<span>[</span>
+					</div>
+					<div class="btn borderR dup" id="BracketRight">
+						<span>}</span>
+						<span>]</span>
+					</div>
+					<div class="btn borderR dup" id="Backslash">
+						<span>|</span>
+						<span>\</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="btn borderL caps">caps</div>
+					<div class="btn borderL" id="KeyA">A</div>
+					<div class="btn borderL" id="KeyS">S</div>
+					<div class="btn borderL" id="KeyD">D</div>
+					<div class="btn borderL" id="KeyF">F</div>
+					<div class="btn borderL" id="KeyG">G</div>
+					<div class="btn" id="KeyH">H</div>
+					<div class="btn" id="KeyJ">J</div>
+					<div class="btn borderR" id="KeyK">K</div>
+					<div class="btn borderR" id="KeyL">L</div>
+					<div class="btn borderR dup" id="Semicolon">
+						<span>:</span>
+						<span>;</span>
+					</div>
+					<div class="btn borderR dup" id="Quote">
+						<span>"</span>
+						<span>'</span>
+					</div>
+					<div class="btn borderR return" id="Enter">return</div>
+				</div>
+				<div class="row">
+					<div class="btn borderL shift" id="ShiftLeft">shift</div>
+					<div class="btn borderL" id="KeyZ">Z</div>
+					<div class="btn borderL" id="KeyX">X</div>
+					<div class="btn borderL" id="KeyC">C</div>
+					<div class="btn borderL" id="KeyV">V</div>
+					<div class="btn borderL" id="KeyB">B</div>
+					<div class="btn" id="KeyN">N</div>
+					<div class="btn borderR" id="KeyM">M</div>
+					<div class="btn borderR dup" id="Comma">
+						<span><</span><span>,</span></div><div class="btn borderR dup"id="Period"><span>></span>
+						<span>.</span>
+					</div>
+					<div class="btn borderR dup" id="Slash">
+						<span>?</span>
+						<span>/</span>
+					</div>
+					<div class="btn borderR shift" id="ShiftRight">shift</div>
+				</div>
+			</div>
+			<h2 class="heading">AND TYPE FROM KEYBOARD</h2>
+			<div class="bottomText" id="bottomtext"># CPM: Characters per minute</div>
 
-      <a href="#about">
-        <img src="assets/downArrow.svg" class="downArrow" alt="Down" />
-      </a>
-    </div>
-    <!-- Keyboard desktop mode close -->
+			<a href="#about">
+				<img src="assets/downArrow.svg" class="downArrow" alt="Down"/>
+			</a>
+		</div>
+		<!-- Keyboard desktop mode close -->
 
-    <!-- About me section -->
-    <div class="main" id="about">
-      <h2 class="about">About Me</h2>
-      <div class="about-section">
-        <div class="about-left">
-          <span class="name">Mayank khanna</span> a graduate from Delhi
-          Technological University, B.Tech degree holder in Information
-          Technology. He has taken up courses in Algorithm Design and Analysis,
-          Data Structures, Object-Oriented Programming Operating System,
-          Programming with Python(Coursera), Database Management System, Data
-          warehousing and data mining and Information and network security.<br /><br />
-          Technologies he has been working on a tech stack of React, Javascript,
-          Css, HTML. He has good hold over JIRA, Google Tag Manager, Google
-          Analytics, Google Cloud Manager, Amazon Web Service(AWS),SQL, Git,
-          Heroku, and have prior experience on Rails and Ruby.
-          <br /><br />He likes writing blogs in his free time.
-          <a
-            class="linkClass"
-            target="_blank"
-            href="https://additionalknowledge.wordpress.com/"
-          >
-            Additionalknowledge </a
-          ><br /><br />He is currently working as Software Development Engineer
-          (SDE) in consumer facing team (Booking & Beyond: Consumer Experience)
-          at OYO Rooms.
-        </div>
-        <img class="imageClass" src="assets/mayankkhanna.jpg" alt="Mayank khanna" />
-      </div>
-    </div>
-    <!-- About me section ended -->
+		<!-- About me section -->
+		<div class="main" id="about">
+			<h2 class="about">About Me</h2>
+			<div class="about-section">
+				<div class="about-left">
+					<span class="name">Mayank khanna</span>
+					a graduate from Delhi
+					Technological University, B.Tech degree holder in Information
+					Technology. He has taken up courses in Algorithm Design and Analysis,
+					Data Structures, Object-Oriented Programming Operating System,
+					Programming with Python(Coursera), Database Management System, Data
+					warehousing and data mining and Information and network security.<br/><br/>
+					Technologies he has been working on a tech stack of React, Javascript,
+					Css, HTML. He has good hold over JIRA, Google Tag Manager, Google
+					Analytics, Google Cloud Manager, Amazon Web Service(AWS),SQL, Git,
+					Heroku, and have prior experience on Rails and Ruby.
+					<br/><br/>He likes writing blogs in his free time.
+					<a class="linkClass" target="_blank" href="https://additionalknowledge.wordpress.com/">
+						Additionalknowledge
+					</a><br/><br/>He is currently working as Software Development Engineer
+					(SDE) in consumer facing team (Booking & Beyond: Consumer Experience)
+					at OYO Rooms.
+				</div>
+				<img class="imageClass" src="assets/mayankkhanna.png" alt="Mayank khanna"/>
+			</div>
+		</div>
+		<!-- About me section ended -->
 
-    <!-- Timeline of work experience -->
-    <div id="experience">
-      <h2 class="experience">Experience</h2>
-      <div class="timeline">
-        <div class="container left">
-          <div class="date">July 2019 to Current</div>
-          <img src="assets/screw.png" class="icon" alt="screw" />
-          <div class="date-highlighter oyoColor"></div>
-          <div class="content">
-            <img src="assets/oyo.png" class="companyLogo" alt="oyo" />
-            <h2>OYO ROOMS, Gurgaon</h2>
-            <h3>Software Development Engineer</h3>
-            <p>
-              Currently working for Consumer Web Team (Booking and Beyond) and
+		<!-- Timeline of work experience -->
+		<div id="experience">
+			<h2 class="experience">Experience</h2>
+			<div class="timeline">
+				<div class="container left exp1">
+					<div class="date">July 2019 to Current</div>
+					<img src="assets/screw.png" class="icon" alt="screw"/>
+					<div class="date-highlighter oyoColor"></div>
+					<div class="content">
+						<img src="assets/oyo.png" class="companyLogo" alt="oyo"/>
+						<h2>OYO ROOMS, Gurgaon</h2>
+						<h3>Software Development Engineer</h3>
+						<p>
+							Currently working for Consumer Web Team (Booking and Beyond) and
               worked in various projects including Autoread SMS for mobile
               website, GA revamp, Referral flow for mWeb, Desktop Homepage
               Widgetization, revamping from old website to new website Oyo-lite,
               new booking confirmation page for mWeb, and launching Oyo Japanese
               homepage. Orchestrated efficient large-scale software deployments
-              and adjusted software parameters to boost performance.<br /><br />
-              Used various technologies including HTML, CSS, JavaScript, React,
+              and adjusted software parameters to boost performance.<br/><br/>
+							Used various technologies including HTML, CSS, JavaScript, React,
               AWS, Google Analytics, Google cloud console, JIRA, Nginx, Google
               Tag Manager, New Relic and more for code repairs and optimizing
               website.
-            </p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="date">June 2018 to July 2018</div>
-          <img src="assets/screw.png" class="icon" alt="screw" />
-          <div class="date-highlighter date-right verzeoColor"></div>
-          <div class="content">
-            <img
-              src="assets/verzeo.png"
-              class="companyLogo verzeo"
-              alt="verzeo"
-            />
-            <h2>VERZEO EDUTECH</h2>
-            <h3>Microsoft Technology Associate</h3>
-            <p>
-              Successfully completed MTA course in JavaScript including on-site
-              evaluations to be considered as Microsoft Technology Associate.<br /><br />
-              Used programming capabilities in HTML, CSS and JavaScript and
+						</p>
+					</div>
+				</div>
+				<div class="container right exp2">
+					<div class="date">June 2018 to July 2018</div>
+					<img src="assets/screw.png" class="icon" alt="screw"/>
+					<div class="date-highlighter date-right verzeoColor"></div>
+					<div class="content">
+						<img src="assets/verzeo.png" class="companyLogo verzeo" alt="verzeo"/>
+						<h2>VERZEO EDUTECH</h2>
+						<h3>Microsoft Technology Associate</h3>
+						<p>
+							Successfully completed MTA course in JavaScript including on-site
+              evaluations to be considered as Microsoft Technology Associate.<br/><br/>
+							Used programming capabilities in HTML, CSS and JavaScript and
               other libraries as needed to create the project.
-            </p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="date">May 2018 to June 2018</div>
-          <img src="assets/screw.png" class="icon" alt="screw" />
-          <div class="date-highlighter date-left ioclColor"></div>
-          <div class="content">
-            <img src="assets/iocl.png" class="companyLogo" alt="iocl" />
-            <h2>IOCL (INDIAN OIL CORPORATION LTD.), Delhi</h2>
-            <h3>Software Engineering Intern</h3>
-            <p>
-              Worked in Information systems department and established
+						</p>
+					</div>
+				</div>
+				<div class="container left exp3">
+					<div class="date">May 2018 to June 2018</div>
+					<img src="assets/screw.png" class="icon" alt="screw"/>
+					<div class="date-highlighter date-left ioclColor"></div>
+					<div class="content">
+						<img src="assets/iocl.png" class="companyLogo" alt="iocl"/>
+						<h2>IOCL (INDIAN OIL CORPORATION LTD.), Delhi</h2>
+						<h3>Software Engineering Intern</h3>
+						<p>
+							Worked in Information systems department and established
               milestones for the project naming Complaint Management system by
               developing wireframes, user experience and web assets for
-              website.<br /><br />
-              Developed user interfaces with modern JavaScript frameworks,
+              website.<br/><br/>
+							Developed user interfaces with modern JavaScript frameworks,
               HTML5, CSS3, Ajax, Ruby, Rails and Photoshop and supported web
               site.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Timeline ended -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Timeline ended -->
 
-    <!-- Work section -->
-    <div id="work">
-      <h2 class="about main workSection">Work</h2>
+		<!-- Work section -->
+		<div id="work">
+			<h2 class="about main workSection">Work</h2>
 
-      <div class="leftMover" id="leftMover"></div>
-      <div class="rightMover" id="rightMover"></div>
-      <div class="workOuter" id="carousel">
-        <!-- First Card / Medium -->
-        <div class="workWrapper leftMargin">
-          <a
-            href="https://medium.com/oyotech/implementing-automatic-sms-verification-for-websites-oyo-9375feba0749"
-            target="_blank"
-          >
-            <div class="mobile-outer">
-              <div class="mobile-inner">
-                <img src="assets/medium.png" class="mediumLogo" alt="medium" />
-                <div class="mobile-image">
-                  <img
-                    src="assets/otpautoread.jpg"
-                    class="mobile-screen"
-                    alt="autoreadsms"
-                  />
-                </div>
-                <div class="mobile-text">
-                  AutoRead SMS capability in OYO mobile website using WEB OTP
-                  API.
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- Second Card -->
-        <div class="workWrapper">
-          <a
-            href="https://drive.google.com/file/d/1EAmGzqZ9xcYh2ZZULM5zj3M0QrwpdrUs/view?usp=sharing"
-            target="_blank"
-          >
-            <div class="mobile-outer desktop-outer">
-              <div class="mobile-inner">
-                <h2 class="cvText">Curriculum Vitae</h2>
-                <div class="mobile-image cv">
-                  <img
-                    src="assets/resume.png"
-                    class="mobile-screen-cv"
-                    alt="resume"
-                  />
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+			<div class="leftMover" id="leftMover"></div>
+			<div class="rightMover" id="rightMover"></div>
+			<div
+				class="workOuter" id="carousel">
+				<!-- First Card / Medium -->
+				<div class="workWrapper leftMargin">
+					<a href="https://medium.com/oyotech/implementing-automatic-sms-verification-for-websites-oyo-9375feba0749" target="_blank">
+						<div class="mobile-outer">
+							<div class="mobile-inner">
+								<img src="assets/medium.png" class="mediumLogo" alt="medium"/>
+								<div class="mobile-image">
+									<img src="assets/otpautoread.jpg" class="mobile-screen" alt="autoreadsms"/>
+								</div>
+								<div class="mobile-text">
+									AutoRead SMS capability in OYO mobile website using WEB OTP API.
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- Second Card -->
+				<div class="workWrapper">
+					<a href="https://drive.google.com/file/d/1EAmGzqZ9xcYh2ZZULM5zj3M0QrwpdrUs/view?usp=sharing" target="_blank">
+						<div class="mobile-outer desktop-outer">
+							<div class="mobile-inner">
+								<h2 class="cvText">Curriculum Vitae</h2>
+								<div class="mobile-image cv">
+									<img src="assets/resume.png" class="mobile-screen-cv" alt="resume"/>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 
-        <!-- Third Card -->
-        <div class="workWrapper">
-          <a href="http://quora-mk.herokuapp.com/" target="_blank">
-            <div class="mobile-outer">
-              <div class="mobile-inner">
-                <h2 class="cvText">Quora Clone</h2>
-                <div class="mobile-image">
-                  <img
-                    src="assets/quora-mk.png"
-                    class="mobile-screen"
-                    alt="quora"
-                  />
-                </div>
-                <div class="mobile-text">
-                  Quora-like platform hosted on heroku and built using Ruby on
-                  Rails.
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+				<!-- Third Card -->
+				<div class="workWrapper">
+					<a href="http://quora-mk.herokuapp.com/" target="_blank">
+						<div class="mobile-outer">
+							<div class="mobile-inner">
+								<h2 class="cvText">Quora Clone</h2>
+								<div class="mobile-image">
+									<img src="assets/quora-mk.png" class="mobile-screen" alt="quora"/>
+								</div>
+								<div class="mobile-text">
+									Quora-like platform hosted on heroku and built using Ruby on Rails.
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 
-        <div class="workWrapper">
-          <a
-            href="https://djmayank.github.io/todoapp.github.io/"
-            target="_blank"
-          >
-            <div class="mobile-outer">
-              <div class="mobile-inner">
-                <h2 class="cvText">TODO App</h2>
-                <div class="mobile-image">
-                  <img
-                    src="assets/todo.png"
-                    class="mobile-screen"
-                    alt="todoapp"
-                  />
-                </div>
-                <div class="mobile-text">
-                  Simple TODO app having basic functionalities and hosted on
-                  Github.
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+				<div class="workWrapper">
+					<a href="https://djmayank.github.io/todoapp.github.io/" target="_blank">
+						<div class="mobile-outer">
+							<div class="mobile-inner">
+								<h2 class="cvText">TODO App</h2>
+								<div class="mobile-image">
+									<img src="assets/todo.png" class="mobile-screen" alt="todoapp"/>
+								</div>
+								<div class="mobile-text">
+									Simple TODO app having basic functionalities and hosted on Github.
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 
-        <div class="workWrapper">
-          <a href="https://djmayank.github.io/weather-app/" target="_blank">
-            <div class="mobile-outer">
-              <div class="mobile-inner">
-                <h2 class="cvText">Weather Card</h2>
-                <div class="mobile-image">
-                  <img
-                    src="assets/weather.png"
-                    class="mobile-screen"
-                    alt="weatherapp"
-                  />
-                </div>
-                <div class="mobile-text">
-                  Dynamic Weather Card created on React and hosted on Github.
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Work section end -->
+				<div class="workWrapper">
+					<a href="https://djmayank.github.io/weather-app/" target="_blank">
+						<div class="mobile-outer">
+							<div class="mobile-inner">
+								<h2 class="cvText">Weather Card</h2>
+								<div class="mobile-image">
+									<img src="assets/weather.png" class="mobile-screen" alt="weatherapp"/>
+								</div>
+								<div class="mobile-text">
+									Dynamic Weather Card created on React and hosted on Github.
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- Work section end -->
 
-    <!-- Contact Me section -->
-    <div id="contact">
-      <h2 class="experience">Contact</h2>
-      <div class="contact-form">
-        <form
-          target="_top"
-          action="mailto:dj.mayankkhanna@gmail.com"
-          method="post"
-          enctype="text/plain"
-        >
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name"
-          />
-          <label for="lname">Email</label>
-          <input
-            type="text"
-            id="femail"
-            name="email"
-            placeholder="Your email id"
-          />
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something..."
-            style="height: 100px"
-          ></textarea>
-          <div class="contact-buttons">
-            <input type="submit" value="Submit" />
-            <input type="reset" value="Reset" />
-          </div>
-        </form>
-      </div>
+		<!-- Contact Me section -->
+		<div id="contact">
+			<h2 class="experience">Contact</h2>
+			<div class="contact-form">
+				<form target="_top" action="mailto:dj.mayankkhanna@gmail.com" method="post" enctype="text/plain">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name"/>
+					<label for="lname">Email</label>
+					<input type="text" id="femail" name="email" placeholder="Your email id"/>
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something..." style="height: 100px"></textarea>
+					<div class="contact-buttons">
+						<input type="submit" value="Submit"/>
+						<input type="reset" value="Reset"/>
+					</div>
+				</form>
+			</div>
 
-      <!-- Contact Social icons -->
-      <div id="contact-icons" class="contact-icons">
-        <h2 class="connect" id="contact-card">Connect with me</h2>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/mayankkhanna0"
-          class="contact-icons-wrapper linkedin"
-        >
-          <svg
-            class="contact-icon-class whiteIcon"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
-            />
-          </svg>
-        </a>
-        <a
-          href="mailto:dj.mayankkhanna@gmail.com?subject=Connecting_for_help_via_portfolio&cc=mr.mayankkhanna@gmail.com"
-          class="contact-icons-wrapper gmail"
-        >
-          <?xml version="1.0" encoding="iso-8859-1"?>
-          <svg
-            class="contact-icon-class whiteIcon"
-            version="1.1"
-            id="Capa_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 512 512"
-            style="enable-background: new 0 0 512 512"
-            xml:space="preserve"
-          >
-            <g>
-              <g>
-                <path
-                  d="M464,64h-16H64H48C21.504,64,0,85.504,0,112v16v256v16c0,26.496,21.504,48,48,48h16h384h16c26.496,0,48-21.504,48-48v-16
-                V128v-16C512,85.504,490.496,64,464,64z M407.488,96L256,215.616L104.512,96H407.488z M448,416H64V148.672l192,147.68L448,148.64
-                V416z"
-                />
-              </g>
-            </g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-          </svg>
-        </a>
-        <a
-          href="https://api.whatsapp.com/send?phone=+919717959550"
-          target="_blank"
-          class="contact-icons-wrapper whatsapp"
-        >
-          <svg
-            class="contact-icon-class whiteIcon"
-            xmlns="http://www.w3.org/2000/svg"
-            width="64"
-            height="64"
-            shape-rendering="geometricPrecision"
-            text-rendering="geometricPrecision"
-            image-rendering="optimizeQuality"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            viewBox="0 0 640 640"
-          >
-            <path
-              d="M546.704 91.89C486.526 31.584 406.482-1.582 321.229-1.582 145.609-1.583 2.67 141.368 2.67 317.118c0 56.139 14.705 111.05 42.567 159.297L.001 641.595l168.959-44.34c46.595 25.382 99.013 38.835 152.222 38.835h.13C496.944 636.09 640 493.14 640 317.401c0-85.182-33.166-165.179-93.344-225.463l.047-.047zM321.323 582.315c-47.599 0-94.218-12.827-134.895-36.957l-9.697-5.788-100.265 26.257 26.776-97.726-6.272-10.04C70.312 415.965 56.4 367.244 56.4 317.13c0-146.082 118.832-264.96 265.066-264.96 70.713 0 137.328 27.65 187.302 77.622 49.996 50.127 77.493 116.588 77.493 187.42-.118 146.187-118.95 265.066-264.96 265.066l.024.036zM466.541 383.85c-7.913-4.028-47.115-23.233-54.39-25.89-7.276-2.658-12.58-4.028-17.977 4.027-5.268 7.914-20.587 25.89-25.252 31.265-4.666 5.28-9.284 6.035-17.197 2.008-7.914-4.028-33.674-12.426-64.064-39.568-23.634-21.095-39.662-47.221-44.328-55.134-4.665-7.914-.52-12.308 3.532-16.193 3.661-3.544 7.925-9.284 11.941-13.95 4.028-4.665 5.28-7.925 7.925-13.31 2.658-5.28 1.359-9.946-.637-13.95-2.008-4.015-17.977-43.217-24.485-59.185-6.39-15.603-13.063-13.43-17.965-13.701-4.665-.237-9.945-.237-15.2-.237-5.257 0-13.95 1.996-21.225 9.933-7.276 7.914-27.898 27.26-27.898 66.45 0 39.201 28.512 77.009 32.516 82.407 4.027 5.267 56.162 85.784 136.029 120.238 18.98 8.161 33.803 13.063 45.355 16.854 19.098 6.024 36.425 5.15 50.126 3.13 15.32-2.256 47.115-19.229 53.788-37.831 6.662-18.615 6.662-34.536 4.666-37.831-1.89-3.544-7.158-5.504-15.201-9.58l-.06.048z"
-            />
-          </svg>
-        </a>
-        <a
-          href="https://additionalknowledge.wordpress.com"
-          target="_blank"
-          class="contact-icons-wrapper wordpress"
-        >
-          <svg
-            class="contact-icon-class whiteIcon"
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 122.88 122.88"
-            style="enable-background: new 0 0 122.88 122.88"
-            xml:space="preserve"
-          >
-            <g>
-              <path
-                class="st0"
-                d="M61.44,0C27.51,0,0,27.51,0,61.44c0,33.93,27.51,61.44,61.44,61.44c33.93,0,61.44-27.51,61.44-61.44 C122.88,27.51,95.37,0,61.44,0L61.44,0z M106.37,36.88c0.22,1.63,0.34,3.38,0.34,5.26c0,5.19-0.97,11.03-3.89,18.34l-15.64,45.21 c15.22-8.87,25.46-25.37,25.46-44.25C112.64,52.54,110.37,44.17,106.37,36.88L106.37,36.88z M62.34,65.92l-15.36,44.64 c4.59,1.35,9.44,2.09,14.46,2.09c5.96,0,11.68-1.03,17-2.9c-0.14-0.22-0.26-0.45-0.37-0.71L62.34,65.92L62.34,65.92z M96,58.86 c0-6.33-2.27-10.71-4.22-14.12c-2.6-4.22-5.03-7.79-5.03-12.01c0-4.71,3.57-9.09,8.6-9.09c0.23,0,0.44,0.03,0.66,0.04 c-9.11-8.35-21.25-13.44-34.57-13.44c-17.89,0-33.62,9.18-42.78,23.08c1.2,0.04,2.33,0.06,3.3,0.06c5.35,0,13.65-0.65,13.65-0.65 c2.76-0.16,3.08,3.89,0.33,4.22c0,0-2.77,0.32-5.86,0.49l18.64,55.46l11.21-33.6l-7.98-21.86c-2.76-0.16-5.37-0.49-5.37-0.49 c-2.76-0.16-2.44-4.38,0.32-4.22c0,0,8.45,0.65,13.48,0.65c5.35,0,13.65-0.65,13.65-0.65c2.76-0.16,3.08,3.89,0.33,4.22 c0,0-2.78,0.32-5.86,0.49L87,92.47l5.28-16.74C94.63,68.42,96,63.24,96,58.86L96,58.86z M10.24,61.44 c0,20.27,11.78,37.78,28.86,46.08L14.67,40.6C11.83,46.97,10.24,54.01,10.24,61.44L10.24,61.44z M61.44,3.69 c7.8,0,15.36,1.53,22.48,4.54c3.42,1.45,6.72,3.24,9.81,5.32c3.06,2.07,5.94,4.44,8.55,7.05c2.61,2.61,4.99,5.49,7.05,8.55 c2.09,3.09,3.88,6.39,5.32,9.81c3.01,7.12,4.54,14.68,4.54,22.48c0,7.8-1.53,15.36-4.54,22.48c-1.45,3.42-3.24,6.72-5.32,9.81 c-2.07,3.06-4.44,5.94-7.05,8.55c-2.61,2.61-5.49,4.99-8.55,7.05c-3.09,2.09-6.39,3.88-9.81,5.32c-7.12,3.01-14.68,4.54-22.48,4.54 c-7.8,0-15.36-1.53-22.48-4.54c-3.42-1.45-6.72-3.24-9.81-5.32c-3.06-2.07-5.94-4.44-8.55-7.05c-2.61-2.61-4.99-5.49-7.05-8.55 c-2.09-3.09-3.88-6.39-5.32-9.81C5.21,76.8,3.69,69.24,3.69,61.44c0-7.8,1.53-15.36,4.54-22.48c1.45-3.42,3.24-6.72,5.32-9.81 c2.07-3.06,4.44-5.94,7.05-8.55c2.61-2.61,5.49-4.99,8.55-7.05c3.09-2.09,6.39-3.88,9.81-5.32C46.08,5.21,53.64,3.69,61.44,3.69 L61.44,3.69z"
-              />
-            </g>
-          </svg>
-        </a>
-        <a
-          href="https://codepen.io/djmayank"
-          target="_blank"
-          class="contact-icons-wrapper codepen"
-        >
-          <svg
-            class="contact-icon-class whiteIcon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 333337 333334"
-            shape-rendering="geometricPrecision"
-            text-rendering="geometricPrecision"
-            image-rendering="optimizeQuality"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-          >
-            <path
-              d="M333086 113394c-77-404-143-807-251-1203-68-238-148-462-224-696-109-352-232-699-369-1042-99-237-211-466-319-695-150-324-313-641-490-950-125-229-270-445-407-664-333-519-700-1015-1096-1487-227-267-463-526-708-776-189-189-378-378-576-561-261-238-532-463-813-677-215-167-426-339-651-491-80-57-152-125-237-180L174610 2408c-4809-3210-11078-3210-15887 0L6377 103969c-85 53-151 121-237 180-224 156-435 323-651 490-277 217-548 442-813 673-197 180-387 367-570 560-251 252-484 508-713 777-169 202-332 404-490 629-215 282-413 570-606 871-139 220-278 435-409 664-175 307-336 622-484 943-108 229-224 463-319 696-139 341-260 691-372 1041-76 235-156 463-220 673-104 394-180 794-252 1203-39 207-90 409-117 620-81 619-125 1238-125 1871v101585c0 628 44 1256 134 1871 32 225 91 404 135 620 72 404 134 807 269 1212 63 224 134 449 224 695 112 359 224 719 359 1047 94 224 224 448 314 673 148 314 315 628 495 956 125 224 268 449 404 655 193 315 404 585 628 853 157 225 315 404 495 620 228 269 448 539 717 777 184 178 359 404 583 538 260 225 539 449 807 682 216 180 450 315 629 490 86 44 135 134 225 174l152304 101616c2346 1584 5115 2424 7945 2410 2828-6 5591-843 7945-2409l152346-101564c85-52 156-116 237-175 224-156 435-323 651-488 278-221 552-449 812-682 197-176 385-369 574-557 432-436 832-903 1198-1396 216-283 414-574 607-871 139-215 279-435 409-655 180-315 336-633 488-956 108-229 222-458 319-691 139-346 256-696 369-1047 75-233 156-462 224-695 104-394 176-800 252-1203 36-207 91-409 112-620 82-619 126-1239 126-1871V115886c0-633-50-1252-126-1872-35-220-103-398-147-619h22zm-166421 87156l-50658-33882 50658-33887 50661 33887-50661 33882zm-14320-92651l-62100 41537-50127-33534 112228-74816v66813h-2zm-87861 58764l-35830 23967v-47931l35830 23965zm25762 17246l62101 41532v66813L40119 217429l50128-33529v9h-1zm90743 41524l62100-41532 50132 33528-112232 74816v-66813 2zm87862-58761l35835-23970v47937l-35834-23976v9h-1zm-25762-17237l-62100-41532V41086l112232 74817-50131 33531h-1z"
-              fill-rule="nonzero"
-            />
-          </svg>
-        </a>
-        <a
-          href="https://github.com/djmayank"
-          target="_blank"
-          class="contact-icons-wrapper codepen"
-        >
-          <svg
-            class="contact-icon-class whiteIcon"
-            xmlns="http://www.w3.org/2000/svg"
-            width="64"
-            height="64"
-            shape-rendering="geometricPrecision"
-            text-rendering="geometricPrecision"
-            image-rendering="optimizeQuality"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            viewBox="0 0 640 640"
-          >
-            <path
-              d="M319.988 7.973C143.293 7.973 0 151.242 0 327.96c0 141.392 91.678 261.298 218.826 303.63 16.004 2.964 21.886-6.957 21.886-15.414 0-7.63-.319-32.835-.449-59.552-89.032 19.359-107.8-37.772-107.8-37.772-14.552-36.993-35.529-46.831-35.529-46.831-29.032-19.879 2.209-19.442 2.209-19.442 32.126 2.245 49.04 32.954 49.04 32.954 28.56 48.922 74.883 34.76 93.131 26.598 2.882-20.681 11.15-34.807 20.315-42.803-71.08-8.067-145.797-35.516-145.797-158.14 0-34.926 12.52-63.485 32.965-85.88-3.33-8.078-14.291-40.606 3.083-84.674 0 0 26.87-8.61 88.029 32.8 25.512-7.075 52.878-10.642 80.056-10.76 27.2.118 54.614 3.673 80.162 10.76 61.076-41.386 87.922-32.8 87.922-32.8 17.398 44.08 6.485 76.631 3.154 84.675 20.516 22.394 32.93 50.953 32.93 85.879 0 122.907-74.883 149.93-146.117 157.856 11.481 9.921 21.733 29.398 21.733 59.233 0 42.792-.366 77.28-.366 87.804 0 8.516 5.764 18.473 21.992 15.354 127.076-42.354 218.637-162.274 218.637-303.582 0-176.695-143.269-319.988-320-319.988l-.023.107z"
-            />
-          </svg>
-        </a>
-      </div>
+			<!-- Contact Social icons -->
+			<div id="contact-icons" class="contact-icons">
+				<h2 class="connect" id="contact-card">Connect with me</h2>
+				<a target="_blank" href="https://www.linkedin.com/in/mayankkhanna0" class="contact-icons-wrapper linkedin">
+					<svg class="contact-icon-class whiteIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+						<path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+					</svg>
+				</a>
+				<a href="mailto:dj.mayankkhanna@gmail.com?subject=Connecting_for_help_via_portfolio&cc=mr.mayankkhanna@gmail.com" class="contact-icons-wrapper gmail">
+					<?xml version="1.0" encoding="iso-8859-1"?>
+					<svg class="contact-icon-class whiteIcon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background: new 0 0 512 512" xml:space="preserve">
+						<g>
+							<g>
+								<path d="M464,64h-16H64H48C21.504,64,0,85.504,0,112v16v256v16c0,26.496,21.504,48,48,48h16h384h16c26.496,0,48-21.504,48-48v-16
+				V128v-16C512,85.504,490.496,64,464,64z M407.488,96L256,215.616L104.512,96H407.488z M448,416H64V148.672l192,147.68L448,148.64
+				V416z"/>
+							</g>
+						</g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+						<g></g>
+					</svg>
+				</a>
+				<a href="https://api.whatsapp.com/send?phone=+919717959550" target="_blank" class="contact-icons-wrapper whatsapp">
+					<svg class="contact-icon-class whiteIcon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640">
+						<path d="M546.704 91.89C486.526 31.584 406.482-1.582 321.229-1.582 145.609-1.583 2.67 141.368 2.67 317.118c0 56.139 14.705 111.05 42.567 159.297L.001 641.595l168.959-44.34c46.595 25.382 99.013 38.835 152.222 38.835h.13C496.944 636.09 640 493.14 640 317.401c0-85.182-33.166-165.179-93.344-225.463l.047-.047zM321.323 582.315c-47.599 0-94.218-12.827-134.895-36.957l-9.697-5.788-100.265 26.257 26.776-97.726-6.272-10.04C70.312 415.965 56.4 367.244 56.4 317.13c0-146.082 118.832-264.96 265.066-264.96 70.713 0 137.328 27.65 187.302 77.622 49.996 50.127 77.493 116.588 77.493 187.42-.118 146.187-118.95 265.066-264.96 265.066l.024.036zM466.541 383.85c-7.913-4.028-47.115-23.233-54.39-25.89-7.276-2.658-12.58-4.028-17.977 4.027-5.268 7.914-20.587 25.89-25.252 31.265-4.666 5.28-9.284 6.035-17.197 2.008-7.914-4.028-33.674-12.426-64.064-39.568-23.634-21.095-39.662-47.221-44.328-55.134-4.665-7.914-.52-12.308 3.532-16.193 3.661-3.544 7.925-9.284 11.941-13.95 4.028-4.665 5.28-7.925 7.925-13.31 2.658-5.28 1.359-9.946-.637-13.95-2.008-4.015-17.977-43.217-24.485-59.185-6.39-15.603-13.063-13.43-17.965-13.701-4.665-.237-9.945-.237-15.2-.237-5.257 0-13.95 1.996-21.225 9.933-7.276 7.914-27.898 27.26-27.898 66.45 0 39.201 28.512 77.009 32.516 82.407 4.027 5.267 56.162 85.784 136.029 120.238 18.98 8.161 33.803 13.063 45.355 16.854 19.098 6.024 36.425 5.15 50.126 3.13 15.32-2.256 47.115-19.229 53.788-37.831 6.662-18.615 6.662-34.536 4.666-37.831-1.89-3.544-7.158-5.504-15.201-9.58l-.06.048z"/>
+					</svg>
+				</a>
+				<a href="https://additionalknowledge.wordpress.com" target="_blank" class="contact-icons-wrapper wordpress">
+					<svg class="contact-icon-class whiteIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 122.88" style="enable-background: new 0 0 122.88 122.88" xml:space="preserve">
+						<g>
+							<path class="st0" d="M61.44,0C27.51,0,0,27.51,0,61.44c0,33.93,27.51,61.44,61.44,61.44c33.93,0,61.44-27.51,61.44-61.44 C122.88,27.51,95.37,0,61.44,0L61.44,0z M106.37,36.88c0.22,1.63,0.34,3.38,0.34,5.26c0,5.19-0.97,11.03-3.89,18.34l-15.64,45.21 c15.22-8.87,25.46-25.37,25.46-44.25C112.64,52.54,110.37,44.17,106.37,36.88L106.37,36.88z M62.34,65.92l-15.36,44.64 c4.59,1.35,9.44,2.09,14.46,2.09c5.96,0,11.68-1.03,17-2.9c-0.14-0.22-0.26-0.45-0.37-0.71L62.34,65.92L62.34,65.92z M96,58.86 c0-6.33-2.27-10.71-4.22-14.12c-2.6-4.22-5.03-7.79-5.03-12.01c0-4.71,3.57-9.09,8.6-9.09c0.23,0,0.44,0.03,0.66,0.04 c-9.11-8.35-21.25-13.44-34.57-13.44c-17.89,0-33.62,9.18-42.78,23.08c1.2,0.04,2.33,0.06,3.3,0.06c5.35,0,13.65-0.65,13.65-0.65 c2.76-0.16,3.08,3.89,0.33,4.22c0,0-2.77,0.32-5.86,0.49l18.64,55.46l11.21-33.6l-7.98-21.86c-2.76-0.16-5.37-0.49-5.37-0.49 c-2.76-0.16-2.44-4.38,0.32-4.22c0,0,8.45,0.65,13.48,0.65c5.35,0,13.65-0.65,13.65-0.65c2.76-0.16,3.08,3.89,0.33,4.22 c0,0-2.78,0.32-5.86,0.49L87,92.47l5.28-16.74C94.63,68.42,96,63.24,96,58.86L96,58.86z M10.24,61.44 c0,20.27,11.78,37.78,28.86,46.08L14.67,40.6C11.83,46.97,10.24,54.01,10.24,61.44L10.24,61.44z M61.44,3.69 c7.8,0,15.36,1.53,22.48,4.54c3.42,1.45,6.72,3.24,9.81,5.32c3.06,2.07,5.94,4.44,8.55,7.05c2.61,2.61,4.99,5.49,7.05,8.55 c2.09,3.09,3.88,6.39,5.32,9.81c3.01,7.12,4.54,14.68,4.54,22.48c0,7.8-1.53,15.36-4.54,22.48c-1.45,3.42-3.24,6.72-5.32,9.81 c-2.07,3.06-4.44,5.94-7.05,8.55c-2.61,2.61-5.49,4.99-8.55,7.05c-3.09,2.09-6.39,3.88-9.81,5.32c-7.12,3.01-14.68,4.54-22.48,4.54 c-7.8,0-15.36-1.53-22.48-4.54c-3.42-1.45-6.72-3.24-9.81-5.32c-3.06-2.07-5.94-4.44-8.55-7.05c-2.61-2.61-4.99-5.49-7.05-8.55 c-2.09-3.09-3.88-6.39-5.32-9.81C5.21,76.8,3.69,69.24,3.69,61.44c0-7.8,1.53-15.36,4.54-22.48c1.45-3.42,3.24-6.72,5.32-9.81 c2.07-3.06,4.44-5.94,7.05-8.55c2.61-2.61,5.49-4.99,8.55-7.05c3.09-2.09,6.39-3.88,9.81-5.32C46.08,5.21,53.64,3.69,61.44,3.69 L61.44,3.69z"/>
+						</g>
+					</svg>
+				</a>
+				<a href="https://codepen.io/djmayank" target="_blank" class="contact-icons-wrapper codepen">
+					<svg class="contact-icon-class whiteIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333337 333334" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+						<path d="M333086 113394c-77-404-143-807-251-1203-68-238-148-462-224-696-109-352-232-699-369-1042-99-237-211-466-319-695-150-324-313-641-490-950-125-229-270-445-407-664-333-519-700-1015-1096-1487-227-267-463-526-708-776-189-189-378-378-576-561-261-238-532-463-813-677-215-167-426-339-651-491-80-57-152-125-237-180L174610 2408c-4809-3210-11078-3210-15887 0L6377 103969c-85 53-151 121-237 180-224 156-435 323-651 490-277 217-548 442-813 673-197 180-387 367-570 560-251 252-484 508-713 777-169 202-332 404-490 629-215 282-413 570-606 871-139 220-278 435-409 664-175 307-336 622-484 943-108 229-224 463-319 696-139 341-260 691-372 1041-76 235-156 463-220 673-104 394-180 794-252 1203-39 207-90 409-117 620-81 619-125 1238-125 1871v101585c0 628 44 1256 134 1871 32 225 91 404 135 620 72 404 134 807 269 1212 63 224 134 449 224 695 112 359 224 719 359 1047 94 224 224 448 314 673 148 314 315 628 495 956 125 224 268 449 404 655 193 315 404 585 628 853 157 225 315 404 495 620 228 269 448 539 717 777 184 178 359 404 583 538 260 225 539 449 807 682 216 180 450 315 629 490 86 44 135 134 225 174l152304 101616c2346 1584 5115 2424 7945 2410 2828-6 5591-843 7945-2409l152346-101564c85-52 156-116 237-175 224-156 435-323 651-488 278-221 552-449 812-682 197-176 385-369 574-557 432-436 832-903 1198-1396 216-283 414-574 607-871 139-215 279-435 409-655 180-315 336-633 488-956 108-229 222-458 319-691 139-346 256-696 369-1047 75-233 156-462 224-695 104-394 176-800 252-1203 36-207 91-409 112-620 82-619 126-1239 126-1871V115886c0-633-50-1252-126-1872-35-220-103-398-147-619h22zm-166421 87156l-50658-33882 50658-33887 50661 33887-50661 33882zm-14320-92651l-62100 41537-50127-33534 112228-74816v66813h-2zm-87861 58764l-35830 23967v-47931l35830 23965zm25762 17246l62101 41532v66813L40119 217429l50128-33529v9h-1zm90743 41524l62100-41532 50132 33528-112232 74816v-66813 2zm87862-58761l35835-23970v47937l-35834-23976v9h-1zm-25762-17237l-62100-41532V41086l112232 74817-50131 33531h-1z" fill-rule="nonzero"/>
+					</svg>
+				</a>
+				<a href="https://github.com/djmayank" target="_blank" class="contact-icons-wrapper codepen">
+					<svg class="contact-icon-class whiteIcon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640">
+						<path d="M319.988 7.973C143.293 7.973 0 151.242 0 327.96c0 141.392 91.678 261.298 218.826 303.63 16.004 2.964 21.886-6.957 21.886-15.414 0-7.63-.319-32.835-.449-59.552-89.032 19.359-107.8-37.772-107.8-37.772-14.552-36.993-35.529-46.831-35.529-46.831-29.032-19.879 2.209-19.442 2.209-19.442 32.126 2.245 49.04 32.954 49.04 32.954 28.56 48.922 74.883 34.76 93.131 26.598 2.882-20.681 11.15-34.807 20.315-42.803-71.08-8.067-145.797-35.516-145.797-158.14 0-34.926 12.52-63.485 32.965-85.88-3.33-8.078-14.291-40.606 3.083-84.674 0 0 26.87-8.61 88.029 32.8 25.512-7.075 52.878-10.642 80.056-10.76 27.2.118 54.614 3.673 80.162 10.76 61.076-41.386 87.922-32.8 87.922-32.8 17.398 44.08 6.485 76.631 3.154 84.675 20.516 22.394 32.93 50.953 32.93 85.879 0 122.907-74.883 149.93-146.117 157.856 11.481 9.921 21.733 29.398 21.733 59.233 0 42.792-.366 77.28-.366 87.804 0 8.516 5.764 18.473 21.992 15.354 127.076-42.354 218.637-162.274 218.637-303.582 0-176.695-143.269-319.988-320-319.988l-.023.107z"/>
+					</svg>
+				</a>
+			</div>
 
-      <div class="copyright">2020 ©Mayank Khanna</div>
-    </div>
-    <!-- Contact me section end -->
-  </body>
+			<div class="copyright">2020 ©Mayank Khanna</div>
+		</div>
+		<!-- Contact me section end -->
+	</body>
 </html>
 
 <script>
+	// scroll reveal
+  window.sr = ScrollReveal({duration: 1000});
+  sr.reveal('.imageClass', {
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 900,
+    origin: 'right'
+  }, 200);
+
+  sr.reveal('.about-left', {
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 900,
+    origin: 'left'
+  });
+
+  sr.reveal('.row', {
+    easing: 'ease-in-out',
+    distance: '80px',
+    duration: 900,
+    origin: 'top'
+  }, 200);
+
+  sr.reveal('.downArrow', {
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 1000,
+    origin: 'top'
+  }, 200);
+
+  sr.reveal('.exp1', {
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 1000,
+    origin: 'top'
+  }, 200);
+
+  sr.reveal('.exp2', {
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 1000,
+    origin: 'top'
+  }, 200);
+  sr.reveal('.exp3', {
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 1000,
+    origin: 'top'
+  }, 200);
+
+  sr.reveal('.workOuter', {
+    easing: 'ease-in-out',
+    duration: 1000,
+    origin: 'right'
+  }, 200);
+
+  ScrollReveal().reveal('#carousel .workWrapper', {
+    container: '#carousel',
+    easing: 'ease-in-out',
+    distance: '120px',
+    duration: 800,
+    origin: 'right'
+  });
+
+  sr.reveal('.contact-form', {
+    easing: 'ease-in-out',
+    duration: 1000,
+    distance: '60px',
+    origin: 'top'
+  }, 200);
+
+  sr.reveal('.contact-icons-wrapper', {
+    easing: 'ease-in-out',
+    duration: 1200,
+    distance: '60px',
+    origin: 'top'
+  }, 200);
+
+  // initial window scroll and removing any # anchor on reload
   window.scroll(0, 0);
   history.replaceState(null, null, " ");
 
