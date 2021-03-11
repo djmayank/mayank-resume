@@ -61,7 +61,8 @@
 		</header>
 		<div class="mobile-header">
 			<h1 class="mobile-header-title">MAYANK KHANNA</h1>
-			<div id="menu">
+			<!-- Old hamburger menu implementation -->
+			<!-- <div id="menu">
 				<div id="menu-bar" onclick="menuOnClick()">
 					<div id="bar1" class="bar"></div>
 					<div id="bar2" class="bar"></div>
@@ -75,7 +76,20 @@
 						<li><a href="#contact" onclick="menuOnClick()">Contact</a></li>
 					</ul>
 				</nav>
+			</div> -->
+			<div class="menu js-menu">
+				<span class="menu__line"></span>
+				<span class="menu__line"></span>
+				<span class="menu__line"></span>
 			</div>
+			<nav class="nav1 js-nav">
+				<ul class="nav__list js-nav__list">
+					<li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+					<li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+				</ul>
+			</nav>
 
 			<div class="menu-bg" id="menu-bg"></div>
 		</div>
@@ -788,10 +802,32 @@ var header = document.querySelector("header");
 header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-function menuOnClick() {
-document.getElementById("menu-bar").classList.toggle("change");
-document.getElementById("nav").classList.toggle("change");
-document.getElementById("menu-bg").classList.toggle("change-bg");
+// old hamburger
+// function menuOnClick() {
+// document.getElementById("menu-bar").classList.toggle("change");
+// document.getElementById("nav").classList.toggle("change");
+// document.getElementById("menu-bg").classList.toggle("change-bg");
+// }
+
+
+let menuTG = document.querySelector('.js-menu');
+if(menuTG){
+	menuTG.addEventListener('click', function(e) {
+		// e.stopPropagation();
+		console.log('yo inside menu');
+		menuTG.classList.toggle('active');
+		document.querySelector('.js-nav').classList.toggle('open');
+    document.querySelector('.js-nav__list').classList.toggle('show');
+	});
+
+
+	document.querySelectorAll('.nav__item').forEach(item => {
+  item.addEventListener('click', event => {
+    menuTG.classList.toggle('active');
+		document.querySelector('.js-nav').classList.toggle('open');
+    document.querySelector('.js-nav__list').classList.toggle('show');
+  })
+})
 }
 
 function scrollFunc(carousel, direction) {
@@ -950,8 +986,47 @@ toggle.addEventListener('click', function(e) {
     localStorage.setItem('newTheme', true);
   }
 });
-console.log("Hi, Thanks for checking out my website. I will appreciate if you can give me some feedback.");
-console.log("Thank you!!");
+// console.log("Hi, Thanks for checking out my website. I will appreciate if you can give me some feedback.");
+// console.log("Thank you!!");
+console.log(
+			"%cmayankkhanna.in",
+			"background-color: #e0005a ; color: white ; font-weight: bold ; " +
+			"font-size: 20px ; font-style: italic ;" +
+			"font-family: 'american typewriter' ; text-shadow: 1px 1px 3px black ;"
+		);
+		console.log(
+			"%cWELCOME",
+			"display: inline-block ; background-image: url( 'https://mayankkhanna.in/assets/mk.png' ) ; " +
+			"background-size: cover ; padding: 10px 175px 200px 10px ; " +
+			"border: 2px solid white ; font-size: 11px ; line-height: 11px ; "
+		);
+		console.group(
+			"%cThanks for checking out my portfolio.",
+			"background-color: #e0005a ; color: #ffffff ; font-weight: bold ; padding: 4px ;"
+		);
+		console.log( "Can I help you in any way?" );
+		console.log( "Lets connect!" );
+		console.log( "Reach out" );
+		console.log(
+			"%cLinkedin",
+			"background-color: #0072ae ; color: white ; font-weight: bold ; " +
+			"font-size: 20px ;" +
+			"text-shadow: 1px 1px 3px black ;"
+		);
+		console.log(
+			"%cGmail",
+			"background-color: #d54a3f ; color: white ; font-weight: bold ; " +
+			"font-size: 20px ;" +
+			"text-shadow: 1px 1px 3px black ;"
+		);
+		console.log(
+			"%cWhatsapp",
+			"background-color: #49c557 ; color: white ; font-weight: bold ; " +
+			"font-size: 20px ;" +
+			"text-shadow: 1px 1px 3px black ;"
+		);
+		console.log("Thanks!")
+		console.groupEnd();
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
