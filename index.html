@@ -813,8 +813,6 @@ header.classList.toggle("sticky", window.scrollY > 0);
 let menuTG = document.querySelector('.js-menu');
 if(menuTG){
 	menuTG.addEventListener('click', function(e) {
-		// e.stopPropagation();
-		console.log('yo inside menu');
 		menuTG.classList.toggle('active');
 		document.querySelector('.js-nav').classList.toggle('open');
     document.querySelector('.js-nav__list').classList.toggle('show');
